@@ -8,9 +8,7 @@ function HomePage({state, setState, city, setCity}) {
   const date = new Date();
   const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
   const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-  //const [city, setCity] = useState("");
   const [loaded, setLoaded] = useState([]);
-  //const navigate = useNavigate();
 
 
   const url = 'https://wft-geo-db.p.rapidapi.com/v1/geo/cities';
@@ -27,7 +25,6 @@ function HomePage({state, setState, city, setCity}) {
       const response = await fetch(`${url}?namePrefix=${inputValue}`, options);
       const result = await response.json();
       console.log(result);
-      //const loaded = result.data.map( (c) => ( {name: c.name, state: c.regionCode}) );
       setLoaded(result.data.map( (c) => ( {name: c.name, state: c.regionCode}) ));
     } catch (error) {
       console.error(error);
@@ -36,14 +33,11 @@ function HomePage({state, setState, city, setCity}) {
   }
 
   function handleCityChange(event) {
-    //setCity(event.target.value);
     setCity(event.target.value);
-    //loadCityOptions(city);
     loadCityOptions(event.target.value);
   }
 
   return (
-    
         <div className={styles.container}>
           <div className={styles.topBar}>
                 <div id={styles.emptyDiv}></div>

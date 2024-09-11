@@ -13,27 +13,6 @@ function WeatherDisplay({state, setState, city, setCity}) {
     const [timeAgo, setTimeAgo] = useState('');
     const intervals = [];
 
-    /*
-    function getWeatherdata() {
-        useEffect( () => {
-            fetch(apiUrl).then(response => response.json()).then(data => setWeather(data)).catch(err => console.log(err));
-            console.log(weather);
-        }, [])
-    }
-    */
-    
-    /*
-    async function getWeatherdata() {
-        const response = await fetch(apiUrl);
-        const result = await response.json();
-        console.log(result);
-        //console.log(result.main.temp)
-        const t = result.name;
-        console.log(t);
-        //return(t)
-    }
-    */
-
     // Save the current city to localStorage whenever it changes
     useEffect(() => {
         if (city) {
