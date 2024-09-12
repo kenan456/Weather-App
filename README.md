@@ -1,5 +1,6 @@
 # Weather App
-A web app that uses OpenWeatherMap and GeoDB Cities APIs to display real-time weather data, including temperature, wind speed, humidity, visibility, pressure, probability of precipitation, and a 5-day hourly forecast
+A web app that utilizes the OpenWeatherMap and GeoDB Cities APIs to provide real-time weather data. It includes details such as temperature, wind speed, humidity, visibility, pressure, probability of precipitation, and a 5-day hourly forecast. This app offers a comprehensive view of current weather conditions and future forecasts.
 
 ## Quick Start
-You can visit the app at "insert link". You will be greeted by the homepage, which is where you will be enter in a city name to get the weather data for that city. Unfortunately, **the app uses the basic plan for the GeoDB Cities API, and so if you type in a city name too quickly, your desired city may not appear in the drop down of city options, and I kindly request you enter in the city name again to get the desired city to appear in the drop down menu**. 
+You can visit the app at [insert link]. On the homepage, enter a city name in the search bar to get weather data. **Please note that the app uses the basic plan for the GeoDB Cities API, which limits the number of API requests. If a city doesn’t appear in the search results right away, I kindly request trying again after a moment**.
+
