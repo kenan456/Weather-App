@@ -28,7 +28,7 @@ function HomePage({state, setState, city, setCity}) {
       setLoaded(result.data.map( (c) => ( {name: c.name, state: c.regionCode}) ));
     } catch (error) {
       console.error(error);
-    }
+    }   
     
   }
 
