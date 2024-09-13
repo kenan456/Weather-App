@@ -1,6 +1,6 @@
 # Weather Forecast - React Web App
 
-*Weather Forecast* is a sleek and intuitive React web application that provides real-time weather information for cities around the world. The app leverages data from two powerful APIs — the **OpenWeatherMap API** and the **GeoDB Cities API** — to offer accurate weather forecasts and city search functionality.
+A sleek and intuitive React web application that provides real-time weather information for cities around the world. The app leverages data from two powerful APIs — the **OpenWeatherMap API** and the **GeoDB Cities API** — to offer accurate weather forecasts and city search functionality.
 
 ## Features
 
@@ -29,7 +29,7 @@
 
 ## Quick Start
 
-Visit *Weather Forecast* at the following link: https://kenan456.github.io/Weather-App/
+Visit the *Weather Forecast app* at the following link: https://kenan456.github.io/Weather-App/
 
 ## Disclaimer
 **Please note that the app uses the basic plan for the GeoDB Cities API, which limits the number of API requests. If a city doesn’t appear in the search results right away, I kindly request trying again after a moment**. 
